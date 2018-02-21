@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-programmer_hash.except
+programmer_hash.except(:alan_kay, :dennis_ritchie)
 
 end
 
