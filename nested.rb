@@ -17,7 +17,8 @@ def hopper
      }
 programmer_hash[:alan_kay] = nil 
 programmer_hash[:dennis_ritchie] = nil
-
+programmer_hash={:known_for => "COBOL",
+          :languages => ["COBOL", "FORTRAN"]}
 end
 
 def alan_kay_is_known_for
